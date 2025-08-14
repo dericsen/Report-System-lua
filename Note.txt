@@ -1,0 +1,49 @@
+Updates
+
+Note: If you are not sure what command to use, you can just upload the script and do /rs in-game and then do /? or /help and check what being added.
+
+FishExchange (sellfish):
+-> Added "Refresh" button for easier exchange process
+-> Added sound feedback
+
+OPC Script:
+-> Fixed Leaderboard Bug
+-> Added global variables to make some value easy to edit
+-> OPC is now saved everytime a player got 1
+-> Added banner (you can change it)
+
+HOW TO SETUP BANNERS?
+1. Upload PNG or RTTEX Banner in Resource Manager and make sure you set it as File Type: Banner
+2. Create a Custom Item in Item Manager and name it whatever you like.
+3. Edit the Custom Item you created, scroll down, and upload the RTTEX in Extra Resources.
+4. Now, you can use the Banner in any script by adding custom button, change server ID, and change RTTEX file name.
+5. Make sure you to input the correct image_size of the image you used. If your image is 1000x300 then change the image size.
+
+"add_custom_button|game_title|image:interface/server_<ID>/banner_opc.rttex;image_size:1200,260;width:1;state:disabled;|\n"
+
+6. RESTART THE SERVER and Done!
+
+Item Exchange:
+-> Added sound feedback
+
+Convert:
+-> Fixed Quick Chats (talk bubble is now following the player)
+-> Made Golden Gem Lock more easier to change.
+
+Give SUPP / GiveServerToken / PayServerToken:
+-> It now support names with (wl) icon. If you disabled that feature because of this script, then you may now turn it back on.
+
+GiveServerToken = Old /givepwl
+PayServerToken = Old /paypwl
+
+Gacha Systems:
+-> Improved gacha logic (read comments inside those script to use it effectively.
+
+Quantum Super Broadcast (Dev):
+It now broadcast to all online player (not only in one world)
+
+Quick Drop:
+You can now drop different set of items and it still support drop amount of 5000 up.
+
+==================================================================================================================================================
+If you are interested in learning scripting in GrowSoft, I hope you can learn from these scripts on how to use basic callbacks and more.
